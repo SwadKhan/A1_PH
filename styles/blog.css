@@ -289,3 +289,24 @@ nav button {
     stroke: rgba(0, 0, 0, 1);
 
 }
+
+.footer {
+    margin-top: 100px;
+    background-color: rgba(13, 19, 33, 0.03);
+    background-position: 100%;
+    background-size: contain;
+    background-size: cover;
+}
+
+.footerTitle {
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 32px;
+    height: 23px;
+    width: 456px;
+
+
+}
