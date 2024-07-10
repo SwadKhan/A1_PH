@@ -1,3 +1,4 @@
+/* navbar */
 nav {
     display: flex;
     align-items: center;
@@ -96,8 +97,10 @@ nav button {
 } */
 
 .btn_second {
+    height: 30px;
+    width: 244px;
     text-align: center;
-    padding: 21px 24px;
+    padding: 10px 24px;
     font-size: 20px;
     font-weight: 600;
     background-color: #0D1321;
@@ -105,6 +108,7 @@ nav button {
     color: #ffffff
 }
 
+/* motivation part */
 #motive {
     margin-bottom: 90px;
     margin-left: 148px;
@@ -161,6 +165,7 @@ nav button {
     padding-right: 101px;
 }
 
+/* inspiration */
 #inspiration {
     display: flex;
     flex-direction: column;
@@ -256,6 +261,7 @@ nav button {
     border-radius: 5%;
 }
 
+/* support */
 .input {
     display: flex;
     justify-content: center;
@@ -273,7 +279,7 @@ nav button {
     padding-right: 20px;
     padding-left: 20px;
     justify-content: center;
-    row-gap: 16px;
+    row-gap: 6px;
     background-image: url("../assets/handshake.jpg");
     background-color: rgba(0, 0, 0, 0.2);
     background-repeat: no-repeat;
@@ -290,6 +296,7 @@ nav button {
 
 }
 
+/* footer */
 .footer {
     margin-top: 100px;
     background-color: rgba(13, 19, 33, 0.03);
