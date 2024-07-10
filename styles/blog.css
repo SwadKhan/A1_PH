@@ -105,7 +105,7 @@ nav button {
     color: #ffffff
 }
 
-.motive {
+#motive {
     margin-bottom: 90px;
     margin-left: 148px;
     margin-right: 152px;
@@ -161,18 +161,23 @@ nav button {
     padding-right: 101px;
 }
 
-.inspiration {
-    display: block;
+#inspiration {
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     margin-left: 148px;
     margin-right: 152px;
     text-wrap: stable;
+    margin-bottom: 160px;
+    /* border-color: #0D1321;
+    border: #0D1321; */
 }
 
-.ins_title h3 {
+.ins_title h2 {
     text-align: center;
     margin-bottom: 24px;
+    font-size: 32;
+    font-weight: 900;
 
 }
 
@@ -181,16 +186,72 @@ nav button {
     margin-bottom: 46px;
     padding-left: 143px;
     padding-right: 145px;
+    text-wrap: pretty;
 }
 
 .iframe {
-    padding: 32px 32px;
-    border-color: whitesmoke;
-    stroke: rgba(13, 19, 33, 0.2);
-    border-radius: 5%;
+    padding-left: 32px 32px;
+
+    /* border-color: whitesmoke; */
+    /* border-color: rgba(13, 19, 33, 0.2); */
+    /* border-radius: 5%; */
+
 }
 
 .iframeBorder {
+    /* padding: 32px 32px; */
+    border-color: rgba(13, 19, 33, 0.2);
     border-radius: 15px;
     overflow: hidden;
+}
+
+.ins_title p {
+    text-align: center;
+    margin-bottom: 46px;
+    padding-left: 140px;
+    padding-right: 145px;
+    text-wrap: pretty;
+}
+
+#card-box {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-left: 148px;
+    margin-right: 152px;
+    text-wrap: stable;
+    row-gap: 48px;
+}
+
+.ins_card {
+    padding-left: 97px;
+    padding-right: 97px;
+    gap: 48px;
+    text-align: center;
+}
+
+.cardTitle {
+    gap: 24px;
+    font-size: 32;
+    font-weight: 900;
+}
+
+.card {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    column-gap: 24px;
+    margin-bottom: 111px;
+
+}
+
+.card1 {
+    padding: 40px 40px;
+    align-items: center;
+    justify-content: center;
+    height: 299px;
+    width: 364px;
+    border: none;
+    row-gap: 8px;
+    border-radius: 5%;
 }
