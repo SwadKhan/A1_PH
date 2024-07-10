@@ -160,3 +160,37 @@ nav button {
     padding-left: 150px;
     padding-right: 101px;
 }
+
+.inspiration {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 148px;
+    margin-right: 152px;
+    text-wrap: stable;
+}
+
+.ins_title h3 {
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+
+.ins_title p {
+    text-align: center;
+    margin-bottom: 46px;
+    padding-left: 143px;
+    padding-right: 145px;
+}
+
+.iframe {
+    padding: 32px 32px;
+    border-color: whitesmoke;
+    stroke: rgba(13, 19, 33, 0.2);
+    border-radius: 5%;
+}
+
+.iframeBorder {
+    border-radius: 15px;
+    overflow: hidden;
+}
