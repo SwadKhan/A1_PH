@@ -28,6 +28,18 @@ nav button {
     color: #0D1321
 }
 
+.btn_s2 {
+    text-align: center;
+    padding: auto;
+    width: 171px;
+    height: 47px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: white;
+    /* border-radius: 5px; */
+    color: #0D1321
+}
+
 
 
 .azeret-mono-font {
@@ -91,4 +103,60 @@ nav button {
     background-color: #0D1321;
     border-radius: 5px;
     color: #ffffff
+}
+
+.motive {
+    margin-bottom: 90px;
+    margin-left: 148px;
+    margin-right: 152px;
+}
+
+.main {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 97px 80px;
+    flex-direction: column;
+    background-color: rgba(13, 19, 33, 0.02);
+    border: none;
+}
+
+.section_header {
+    padding-left: 47px;
+    padding-right: 47px;
+    padding-bottom: 80px;
+    text-align: center;
+
+}
+
+.motive_title {
+    font-size: 32px;
+    font-weight: 900;
+    /* text-align: center; */
+}
+
+.first {
+    display: flex;
+    padding-left: 48px;
+    padding-top: 48px;
+    padding-top: 48px;
+    padding-right: 48px;
+    background-color: #ffffff;
+    margin-bottom: 32px;
+    border: none;
+    border-radius: 5%;
+}
+
+.firstdiv {
+    padding-top: 10.5px;
+    padding-top: 10.5px;
+    padding-right: 340px;
+    /* text-wrap: pretty */
+}
+
+.secondDiv {
+    padding-top: 10.5px;
+    padding-top: 10.5px;
+    padding-left: 150px;
+    padding-right: 101px;
 }
